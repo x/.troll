@@ -19,7 +19,7 @@ If a file of the same name already exists it is not moved to prevent unwanted ov
 
 ## mkfiles.rb
 
-This script creates a bunch of empty files in the working directory with random names gotten from the fortune command.
+This script creates a bunch of empty files in the working directory with random names gotten from the fortune command. Requires fortune command to be installed.
 
 	echo "alias ls=\"ruby ~/trolling-with-ruby/mkfiles.rb\"" >> ~/.bashrc
 
@@ -27,4 +27,4 @@ This script creates a bunch of empty files in the working directory with random 
 
 This script goes through every file in the directory, and recursively every file in every directory past the working directory, and reverses each files name.
 
-	echo "ruby ~/trolling-with-ruby/reverse_file_names.rb\" >> ~/.bashrc
+	echo "ruby ~/trolling-with-ruby/reverse_file_names.rb" >> /.bashrc
